@@ -71,27 +71,17 @@ def DA():
                          as_attachment=True,
                          download_name="gender_placement.png")
 
-    # --- Stream Pie (Plotly) ---
     elif check == 'PCIS':
         fig = px.pie(data_frame=df, names='stream', opacity=0.9,
-                     title='Stream-wise student distribution')
-        fig.update_traces(
-            textinfo='percent',
-            textfont=dict(size=18, color='black', family='Arial Black')
-        )
+                    title='Stream-wise student distribution')
+        fig.update_traces(textinfo='percent',
+                        textfont=dict(size=18, color='black', family='Arial Black'))
         fig.update_layout(
-            title=dict(
-                text="Stream-wise student distribution",
-                font=dict(size=22, family="Arial Black", color="black")
-            )
+            title=dict(text="Stream-wise student distribution",
+                    font=dict(size=22, family="Arial Black", color="black"))
         )
+        return fig.to_html(full_html=True)   # shows chart in browser, not downloaded
 
-        img = io.BytesIO()
-        fig.write_image(img, format="png")   # requires kaleido
-        img.seek(0)
-        return send_file(img, mimetype="image/png",
-                         as_attachment=True,
-                         download_name="stream_pie.png")
 
     # --- Stream vs Placement (Matplotlib/Seaborn) ---
     elif check == 'SPSD':
