@@ -9,7 +9,7 @@ pd.options.display.max_rows = 200   # show 200 rows
 
 
 app = Flask(__name__)
-df = pd.read_csv('Dataset\Final.csv')
+df = pd.read_csv('Dataset\final.csv')
 
 gb = joblib.load("Models/Gradient_Boosting.pkl")
 lr = joblib.load("Models/Linear_Regression.pkl")
@@ -234,5 +234,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True)
-
+    app.run()
