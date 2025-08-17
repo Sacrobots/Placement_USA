@@ -9,7 +9,10 @@ pd.options.display.max_rows = 200   # show 200 rows
 
 
 app = Flask(__name__)
-df = pd.read_csv('Dataset\final.csv')
+df = pd.read_csv('Dataset/final.csv')   # use forward slashes
+# OR (recommended for cross-platform)
+import os
+df = pd.read_csv(os.path.join("Dataset", "final.csv"))
 
 gb = joblib.load("Models/Gradient_Boosting.pkl")
 lr = joblib.load("Models/Linear_Regression.pkl")
@@ -46,8 +49,8 @@ def submit():
     elif option == 'Prediction':
         return render_template("Predictions.html")
 
-# @app.route('/DA', methods=["POST", "GET"])
-# def DA():
+@app.route('/DA', methods=["POST", "GET"])
+def DA():
 
    
     check = request.form.get("Charts")   # now works!
@@ -201,81 +204,6 @@ def US():
 
     return render_template("USA.html", graph_html=graph_html)
 
-@app.route('/DA', methods=["POST", "GET"])
-def DA():
-    check = request.form.get("Charts")   # dropdown/chart choice
-
-    # --- Case 1: Gender vs Placement (Matplotlib/Seaborn) ---
-    if check == 'GPST':
-        plt.figure(figsize=(10, 6))
-        sns.histplot(x='gender', data=df, hue='placement_status',
-                     palette={'Placed': 'blue', 'Not Placed': 'red'},
-                     multiple='dodge')
-        plt.xlabel("Gender")
-        plt.ylabel("Count")
-
-        # return PNG response
-        img = io.BytesIO()
-        plt.savefig(img, format='png')
-        img.seek(0)
-        plt.close()
-        return Response(img.getvalue(), mimetype='image/png')
-
-    # --- Case 2: Stream Pie Chart (Plotly) ---
-    elif check == 'PCIS':
-        fig = px.pie(data_frame=df, names='stream', opacity=0.9,
-                     title='Stream-wise student distribution')
-        fig.update_traces(
-            textinfo='percent',
-            textfont=dict(size=18, color='black', family='Arial Black')
-        )
-        fig.update_layout(
-            title=dict(
-                text="Stream-wise student distribution",
-                font=dict(size=22, family="Arial Black", color="black")
-            )
-        )
-        return fig.to_html(full_html=True)   # opens in browser tab
-
-    # --- Case 3: Stream vs Placement (Seaborn) ---
-    elif check == 'SPSD':
-        plt.figure(figsize=(10, 10))
-        ax = sns.histplot(x='stream', data=df, hue='placement_status',
-                          multiple='dodge', shrink=0.8)
-        plt.xlabel("Stream")
-        plt.ylabel("Count")
-
-        for p in ax.patches:
-            height = p.get_height()
-            if height > 0:
-                ax.text(p.get_x() + p.get_width() / 2, height,
-                        int(height), ha='center', va='bottom', fontsize=10)
-
-        plt.legend()
-        img = io.BytesIO()
-        plt.savefig(img, format='png')
-        img.seek(0)
-        plt.close()
-        return Response(img.getvalue(), mimetype='image/png')
-
-    # --- Case 4: Location vs Placement (Seaborn) ---
-    elif check == 'PSDA':
-        plt.figure(figsize=(12, 6))
-        sns.histplot(x='location', data=df, hue='placement_status',
-                     multiple='dodge', shrink=0.8)
-        plt.xticks(rotation=45)
-        plt.xlabel("Location")
-        plt.ylabel("Count")
-
-        img = io.BytesIO()
-        plt.savefig(img, format='png')
-        img.seek(0)
-        plt.close()
-        return Response(img.getvalue(), mimetype='image/png')
-
-    else:
-        return "<h3>No valid chart option selected</h3>"
-    
 @app.route("/Predict", methods=["POST"])
 def predict():
     # Example: form fields 'feature1', 'feature2', ...
@@ -309,4 +237,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run()
+    port = int(os.environ.get("PORT", 5000))  # default 5000 for local dev
+    app.run(host="0.0.0.0", port=port, debug=True)
