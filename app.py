@@ -96,8 +96,12 @@ def DA():
             if height > 0:
                 ax.text(p.get_x() + p.get_width() / 2, height,
                         int(height), ha='center', va='bottom', fontsize=10)
-        plt.legend()
-
+        # Change legend labels
+        ax.legend(title="Stream Vs Placement", labels=["Not Placed", "Placed"])
+            # ✅ Overwrite x-axis tick labels
+        new_labels = ["IT", "CS", "EE", "ECE", "MECH"]  # example custom labels
+        ax.set_xticklabels(new_labels, ha="center")
+        
         img = io.BytesIO()
         plt.savefig(img, format="png")
         img.seek(0)
@@ -108,7 +112,7 @@ def DA():
 
     # --- Placement by Location (Matplotlib/Seaborn) ---
     elif check == 'PSDA':
-        plt.figure(figsize=(12, 6))
+        plt.figure(figsize=(15, 12))   # ⬅️ Increase width (was 12,6 → now 20,8)
         sns.histplot(x='location', data=df, hue='placement_status',
                      multiple='dodge', shrink=0.8)
         plt.xticks(rotation=45)
