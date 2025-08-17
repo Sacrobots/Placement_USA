@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Salary Prediction</title>
+
+    <!-- CSS Styling -->
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-weight: bolder;
+        }
+
+        .form-container {
+            background: #ffffff;
+            padding: 40px 45px;
+            border-radius: 14px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 380px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+            color: #34495e;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        select {
+            width: 100%;
+            padding: 14px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            outline: none;
+            margin-bottom: 30px;
+            background-color: #f9f9f9;
+            transition: all 0.3s ease;
+        }
+
+        select:focus {
+            border: 2px solid #2575fc;
+            background-color: #eef5ff;
+            box-shadow: 0px 10px 8px rgba(37, 117, 252, 0.5);
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #2575fc, #6a11cb);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            transform: scale(1.05);
+        }
+
+        /* Smooth fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Welcome 😄</h2>
+        <form action="/submit" method="POST">
+            <select id="Option" name="Option" required>
+                <option value="" disabled selected>-- Select an Option --</option>
+                <option value="Prediction">🤖 Predict Salaries</option>
+                <option value="US_Map">🗺️ Best Colleges Locations [ USA ]</option>
+                <option value="DA_Charts">📊 Data Analytics Charts</option>
+            </select>
+            <button type="submit">🚀 Proceed</button>
+        </form>
+    </div>
+</body>
+
+</html>

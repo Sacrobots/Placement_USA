@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+            transition: all 0.3s ease;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        select,
+        input[type="range"],
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="range"] {
+            padding: 0;
+        }
+
+        .range-value {
+            font-weight: normal;
+            margin-left: 10px;
+            color: #555;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            margin-top: 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/Predict" method="post">
+        <h2 style="text-align: center;">Enter Details</h2>
+        <!-- Gender -->
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender" required>
+            <option value="1">Male</option>
+            <option value="0">Female</option>
+        </select>
+
+        <!-- Degree  -->
+        <label for="Degree">Degree</label>
+        <select name="Degree" id="Degree" required>
+            <option value="0">Bachelor's</option>
+        </select>
+
+        <!-- Stream  -->
+        <label for="stream">Stream</label>
+        <select name="stream" id="stream" required>
+            <option value="3">Information Technology</option>
+            <option value="0">Computer Science</option>
+            <option value="1">Electrical Engineering</option>
+            <option value="2">Electronics and Communication</option>
+            <option value="4">Mechanical Engineering</option>
+        </select>
+
+        <!-- Age  -->
+        <label for="Age">Age: <span id="ageValue" class="range-value">25</span></label>
+        <input type="range" name="age" id="Age" min="22" max="29" value="25" step="1"
+            oninput="ageValue.innerText = this.value">
+
+        <!-- College Name -->
+        <label for="college">College Name</label>
+        <select name="college_name" id="college" required>
+            <option value="0">University of California</option>
+            <option value="10">University of Michigan</option>
+            <option value="1">University of California</option>
+            <option value="8">University of Illinois</option>
+            <option value="16">University of Washington</option>
+            <option value="9">University of Maryland</option>
+            <option value="5">University of Colorado</option>
+            <option value="13">University of Rochester</option>
+            <option value="4">University of California</option>
+            <option value="6">University of Connecticut</option>
+            <option value="7">University of Delaware</option>
+            <option value="3">University of California</option>
+            <option value="14">University of Texas</option>
+            <option value="15">University of Virginia</option>
+            <option value="2">University of California</option>
+            <option value="12">University of Pennsylvania</option>
+            <option value="11">University of North Carolina</option>
+        </select>
+
+        <!-- Placement Status -->
+        <label for="placement_status">Placement Status</label>
+        <select name="placement_status" id="placement_status" required>
+            <option value="1">Placed</option>
+            <option value="0">Not Placed</option>
+        </select>
+
+        <!-- GPA -->
+        <label for="gpa">GPA: <span id="gpaValue" class="range-value">3.5</span></label>
+        <input type="range" name="gpa" id="gpa" min="2" max="5" step="0.1" oninput="gpaValue.innerText = this.value">
+
+        <!-- Years Of Experience -->
+        <label for="years_of_experience">Years Of Experience: <span id="expValue" class="range-value">2</span></label>
+        <input type="range" name="years_of_experience" id="years_of_experience" min="0" max="10" value="2"
+            oninput="expValue.innerText = this.value">
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <a href="/" style="
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+">Home</a>
+
+</body>
+
+</html>

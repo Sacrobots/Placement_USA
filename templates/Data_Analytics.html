@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analytics Chart</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            /* Dark teal gradient */
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f1f1f1;
+            transition: all 0.3s ease;
+        }
+
+        .container {
+            background: rgba(20, 20, 20, 0.85);
+            padding: 30px 40px;
+            border-radius: 15px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.8);
+            text-align: center;
+            width: 420px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #ffdd57;
+            /* gold accent */
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #444;
+            outline: none;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 1rem;
+            background-color: #1e1e1e;
+            /* dark dropdown */
+            color: #f8f8f8;
+            transition: all 0.3s ease;
+        }
+
+        select:hover,
+        select:focus {
+            border: 1px solid #00e5ff;
+            /* neon blue highlight */
+            box-shadow: 0px 0px 10px rgba(0, 229, 255, 0.6);
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(90deg, #ff416c, #ff4b2b);
+            /* neon red gradient */
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+
+        button:hover {
+            transform: scale(1.08);
+            background: linear-gradient(90deg, #ff4b2b, #ff416c);
+            box-shadow: 0px 6px 20px rgba(255, 65, 108, 0.6);
+        }
+
+        a {
+            margin-top: 50px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Select Suitable Chart Option 📊</h2>
+        <form action="/DA" method="POST">
+            <select id="Option" name="Charts">
+                <option value="GPST">Gender-wise Placement Status (Male vs Female)</option>
+                <option value="PCIS">Distribution of Streams (Most Common Choices)</option>
+                <option value="SPSD">Stream-wise Placement Status Distribution</option>
+                <option value="PSDA">Placement Status Distribution Across Colleges</option>
+            </select>
+            <br>
+            <button type="submit">Show Chart</button>
+        </form>
+        <br>
+        <a href="/">Home</a>
+    </div>
+</body>
+
+</html>
