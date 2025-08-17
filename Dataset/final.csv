@@ -1,0 +1,637 @@
+id,name,gender,age,degree,stream,college_name,placement_status,salary,gpa,years_of_experience,location
+13,Daniel Martinez,Male,26,Bachelor's,Information Technology,University of California,Placed,63000,3.7,2.0,Berkeley
+14,Mia Gonzalez,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,64000,3.6,1.0,Ann Arbor
+15,Alexander Rodriguez,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.8,3.0,Los Angeles
+18,Olivia Moore,Female,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,62000,3.8,1.0,Urbana-Champaign
+20,Amelia Rivera,Female,25,Bachelor's,Computer Science,University of Washington,Placed,65000,3.6,1.0,Washington
+27,Jack Bailey,Male,23,Bachelor's,Electrical Engineering,University of Maryland,Placed,64000,3.7,2.0,College Park
+30,Chloe Peterson,Female,26,Bachelor's,Electronics and Communication,University of Colorado,Placed,62000,3.6,1.0,Boulder
+31,Elijah Kelly,Male,23,Bachelor's,Information Technology,University of Rochester,Placed,61000,3.9,2.0,Rochester
+39,Ethan Turner,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+40,Isabella Perez,Female,25,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+42,Mia Gonzalez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+43,Alexander Rodriguez,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+44,Olivia Moore,Female,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+45,Jack Bailey,Male,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+49,Liam Russell,Male,26,Bachelor's,Information Technology,University of California,Placed,67000,3.9,3.0,Los Angeles
+50,Chloe Peterson,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+52,Anna Cooper,Female,25,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+53,Lucas Reed,Male,26,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+54,Sophia Price,Female,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+55,Mason Parker,Male,23,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+57,William Hernandez,Male,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+58,Amelia Rivera,Female,26,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+59,Ethan Turner,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+60,Isabella Perez,Female,25,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+62,Mia Gonzalez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+63,Alexander Rodriguez,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+64,Olivia Moore,Female,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+65,Jack Bailey,Male,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+69,Liam Russell,Male,26,Bachelor's,Information Technology,University of California,Placed,67000,3.9,3.0,Los Angeles
+70,Chloe Peterson,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+72,Anna Cooper,Female,25,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+73,Lucas Reed,Male,26,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+74,Sophia Price,Female,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+75,Mason Parker,Male,23,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+77,William Hernandez,Male,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+78,Amelia Rivera,Female,26,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+79,Ethan Turner,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+80,Isabella Perez,Female,25,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+82,Mia Gonzalez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+83,Alexander Rodriguez,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+84,Olivia Moore,Female,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+85,Jack Bailey,Male,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+89,Liam Russell,Male,26,Bachelor's,Information Technology,University of California,Placed,67000,3.9,3.0,Los Angeles
+90,Chloe Peterson,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+92,Anna Cooper,Female,25,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+93,Lucas Reed,Male,26,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+94,Sophia Price,Female,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+95,Mason Parker,Male,23,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+97,William Hernandez,Male,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+98,Amelia Rivera,Female,26,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+99,Ethan Turner,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+100,Isabella Perez,Female,25,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+102,Mia Gonzalez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+103,Alexander Rodriguez,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+104,Olivia Moore,Female,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+105,Jack Bailey,Male,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+109,Liam Russell,Male,26,Bachelor's,Information Technology,University of California,Placed,67000,3.9,3.0,Los Angeles
+110,Chloe Peterson,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+112,Anna Cooper,Female,25,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+113,Lucas Reed,Male,26,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+114,Sophia Price,Female,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+115,Mason Parker,Male,23,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+117,William Hernandez,Male,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+118,Amelia Rivera,Female,26,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+119,Ethan Turner,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+120,Isabella Perez,Female,25,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+122,Mia Gonzalez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+123,Alexander Rodriguez,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+124,Olivia Moore,Female,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+125,Jack Bailey,Male,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+129,Liam Russell,Male,26,Bachelor's,Information Technology,University of California,Placed,67000,3.9,3.0,Los Angeles
+130,Chloe Peterson,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+132,Anna Cooper,Female,25,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+133,Lucas Reed,Male,26,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+134,Sophia Price,Female,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+135,Mason Parker,Male,23,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+137,William Hernandez,Male,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+138,Amelia Rivera,Female,26,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+139,Ethan Turner,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+140,Isabella Perez,Female,25,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+142,Mia Gonzalez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+143,Alexander Rodriguez,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+144,Olivia Moore,Female,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+145,Jack Bailey,Male,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+149,Liam Russell,Male,26,Bachelor's,Information Technology,University of California,Placed,67000,3.9,3.0,Los Angeles
+150,Chloe Peterson,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+152,Anna Cooper,Female,25,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+153,Lucas Reed,Male,26,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+154,Sophia Price,Female,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+155,Mason Parker,Male,23,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+157,William Hernandez,Male,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+158,Amelia Rivera,Female,26,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+159,Ethan Turner,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+160,Isabella Perez,Female,25,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+162,Mia Gonzalez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+163,Alexander Rodriguez,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+164,Olivia Moore,Female,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+165,Jack Bailey,Male,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+169,Liam Russell,Male,26,Bachelor's,Information Technology,University of California,Placed,67000,3.9,3.0,Los Angeles
+170,Chloe Peterson,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+172,Anna Cooper,Female,25,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+173,Lucas Reed,Male,26,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+174,Sophia Price,Female,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+175,Mason Parker,Male,23,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+177,William Hernandez,Male,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+178,Amelia Rivera,Female,26,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+179,Ethan Turner,Male,23,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+180,Isabella Perez,Female,25,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+182,Mia Gonzalez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+183,Alexander Rodriguez,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+184,Olivia Moore,Female,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+185,Jack Bailey,Male,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+189,Emma Brown,Female,23,Bachelor's,Information Technology,University of Maryland,Placed,61000,3.7,2.0,College Park
+190,Noah Garcia,Male,24,Bachelor's,Computer Science,University of Michigan,Placed,64000,3.8,3.0,Ann Arbor
+191,Sophia Martinez,Female,25,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.9,3.0,Los Angeles
+192,Liam Rodriguez,Male,26,Bachelor's,Mechanical Engineering,University of Virginia,Placed,67000,3.9,3.0,Virginia
+195,Ava Williams,Female,25,Bachelor's,Information Technology,University of Washington,Placed,67000,3.8,3.0,Washington
+196,Liam Brown,Male,26,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.9,3.0,Berkeley
+197,Amelia Smith,Female,24,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+198,William Garcia,Male,23,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+200,Elijah Garcia,Male,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+201,Emma Brown,Female,23,Bachelor's,Computer Science,University of Michigan,Placed,64000,3.8,3.0,Ann Arbor
+202,Noah Garcia,Male,24,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.9,3.0,Los Angeles
+203,Sophia Martinez,Female,25,Bachelor's,Mechanical Engineering,University of Virginia,Placed,67000,3.9,3.0,Virginia
+206,Ethan Johnson,Male,23,Bachelor's,Information Technology,University of Washington,Placed,67000,3.8,3.0,Washington
+207,Ava Williams,Female,25,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.9,3.0,Berkeley
+208,Liam Brown,Male,26,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+209,Amelia Smith,Female,24,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+211,Olivia Brown,Female,25,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+212,Elijah Garcia,Male,24,Bachelor's,Electrical Engineering,University of Michigan,Placed,64000,3.8,3.0,Ann Arbor
+213,Emma Brown,Female,23,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.9,3.0,Los Angeles
+214,Noah Garcia,Male,24,Bachelor's,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0,Virginia
+217,Olivia Smith,Female,24,Bachelor's,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+218,Ethan Johnson,Male,23,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.9,3.0,Berkeley
+219,Ava Williams,Female,25,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+220,Liam Brown,Male,26,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+222,William Garcia,Male,23,Bachelor's,Electrical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+223,Olivia Brown,Female,25,Bachelor's,Mechanical Engineering,University of Michigan,Placed,64000,3.8,3.0,Ann Arbor
+224,Elijah Garcia,Male,24,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.9,3.0,Los Angeles
+225,Emma Brown,Female,23,Bachelor's,Computer Science,University of Virginia,Placed,67000,3.9,3.0,Virginia
+228,Liam Rodriguez,Male,26,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+229,Olivia Smith,Female,24,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.9,3.0,Berkeley
+230,Ethan Johnson,Male,23,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+231,Ava Williams,Female,25,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+233,Amelia Smith,Female,24,Bachelor's,Mechanical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+234,William Garcia,Male,23,Bachelor's,Electronics and Communication,University of Michigan,Placed,64000,3.8,3.0,Ann Arbor
+235,Olivia Brown,Female,25,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Los Angeles
+236,Elijah Garcia,Male,24,Bachelor's,Information Technology,University of Virginia,Placed,67000,3.9,3.0,Virginia
+239,Sophia Martinez,Female,25,Bachelor's,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0,Washington
+240,Liam Rodriguez,Male,26,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+241,Olivia Smith,Female,24,Bachelor's,Information Technology,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+242,Ethan Johnson,Male,23,Bachelor's,Electrical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+244,Liam Brown,Male,26,Bachelor's,Electronics and Communication,University of Maryland,Placed,63000,3.7,2.0,College Park
+245,Amelia Smith,Female,24,Bachelor's,Computer Science,University of Michigan,Placed,64000,3.8,3.0,Ann Arbor
+246,William Garcia,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Los Angeles
+247,Olivia Brown,Female,25,Bachelor's,Electrical Engineering,University of Virginia,Placed,67000,3.9,3.0,Virginia
+250,Noah Garcia,Male,24,Bachelor's,Computer Science,University of Washington,Placed,67000,3.8,3.0,Washington
+251,Sophia Martinez,Female,25,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+252,Liam Rodriguez,Male,26,Bachelor's,Electrical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+253,Olivia Smith,Female,24,Bachelor's,Mechanical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+255,Ava Williams,Female,25,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+256,Liam Brown,Male,26,Bachelor's,Information Technology,University of Michigan,Placed,64000,3.8,3.0,Ann Arbor
+257,Amelia Smith,Female,24,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.9,3.0,Los Angeles
+258,William Garcia,Male,23,Bachelor's,Mechanical Engineering,University of Virginia,Placed,67000,3.9,3.0,Virginia
+261,Emma Brown,Female,23,Bachelor's,Information Technology,University of Washington,Placed,67000,3.8,3.0,Washington
+262,Noah Garcia,Male,24,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.9,3.0,Berkeley
+263,Sophia Martinez,Female,25,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+264,Liam Rodriguez,Male,26,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+266,Ethan Johnson,Male,23,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+267,Ava Williams,Female,25,Bachelor's,Electrical Engineering,University of Michigan,Placed,64000,3.8,3.0,Ann Arbor
+268,Liam Brown,Male,26,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.9,3.0,Los Angeles
+269,Amelia Smith,Female,24,Bachelor's,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0,Virginia
+272,Elijah Garcia,Male,24,Bachelor's,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+273,Emma Brown,Female,23,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.9,3.0,Berkeley
+274,Noah Garcia,Male,24,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+275,Sophia Martinez,Female,25,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+278,Nathan Garcia,Male,23,Bachelor's,Information Technology,University of California,Placed,67000,3.8,3.0,Los Angeles
+279,Sophia Hernandez,Female,26,Bachelor's,Mechanical Engineering,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+281,Amelia Lee,Female,25,Bachelor's,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0,Washington
+282,Ethan Johnson,Male,23,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+283,Isabella Smith,Female,26,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+284,Aiden Brown,Male,24,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+286,Lucas Taylor,Male,23,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+287,Emma Martinez,Female,26,Bachelor's,Mechanical Engineering,University of Rochester,Placed,62000,3.8,3.0,Rochester
+288,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,60000,3.7,2.0,Santa Cruz
+289,Mia Wilson,Female,23,Bachelor's,Electronics and Communication,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+291,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+292,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+293,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Texas,Placed,63000,3.6,1.0,Dallas
+294,Ava Lee,Female,24,Bachelor's,Information Technology,University of Virginia,Placed,64000,3.9,2.0,Virginia
+295,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Placed,67000,3.9,3.0,Los Angeles
+296,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+298,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+299,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+300,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+301,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+303,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+304,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Rochester,Placed,62000,3.8,3.0,Rochester
+305,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Placed,60000,3.7,2.0,Santa Cruz
+306,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+308,Liam Perez,Male,25,Bachelor's,Computer Science,University of Delaware,Placed,65000,3.7,1.0,Delaware
+309,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.8,3.0,San Francisco
+310,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Texas,Placed,63000,3.6,1.0,Dallas
+311,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+312,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of California,Placed,67000,3.9,3.0,Los Angeles
+313,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Michigan,Placed,68000,3.9,3.0,Ann Arbor
+315,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+316,Jack Garcia,Male,26,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+317,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+318,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+320,Ava Lee,Female,24,Bachelor's,Information Technology,University of Maryland,Placed,63000,3.7,2.0,College Park
+321,Liam Perez,Male,25,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+322,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of California,Placed,60000,3.7,2.0,Santa Cruz
+323,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+325,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Delaware,Placed,65000,3.7,1.0,Delaware
+326,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.8,3.0,San Francisco
+327,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+328,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+329,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+331,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Washington,Placed,67000,3.8,3.0,Washington
+332,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.9,3.0,Los Angeles
+333,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,65000,3.9,3.0,Berkeley
+334,Liam Perez,Male,25,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+335,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+337,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+338,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+339,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,60000,3.7,2.0,Santa Cruz
+340,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+342,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Delaware,Placed,65000,3.7,1.0,Delaware
+343,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.8,3.0,San Francisco
+344,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+345,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+346,Ava Lee,Female,24,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+348,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0,Washington
+349,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+350,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+351,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+353,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+354,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0,Rochester
+355,Jack Garcia,Male,26,Bachelor's,Information Technology,University of California,Placed,60000,3.7,2.0,Santa Cruz
+356,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+358,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+359,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+360,Liam Perez,Male,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+361,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0,Virginia
+362,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+364,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Washington,Placed,67000,3.8,3.0,Washington
+365,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.9,3.0,Berkeley
+366,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+367,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+369,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+370,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+371,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+372,Ava Lee,Female,24,Bachelor's,Information Technology,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+374,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+375,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+376,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Texas,Placed,63000,3.6,1.0,Dallas
+377,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Michigan,Placed,64000,3.9,2.0,Ann Arbor
+378,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0,Virginia
+379,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,67000,3.8,3.0,Los Angeles
+380,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.7,2.0,Berkeley
+381,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+382,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+384,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+385,Ava Lee,Female,24,Bachelor's,Information Technology,University of Rochester,Placed,62000,3.8,3.0,Rochester
+386,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Placed,60000,3.7,2.0,Santa Cruz
+387,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+389,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+390,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+391,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Texas,Placed,63000,3.6,1.0,Dallas
+392,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Virginia,Placed,64000,3.9,2.0,Virginia
+393,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+395,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+396,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+397,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+398,Ava Lee,Female,24,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+400,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Maryland,Placed,63000,3.7,2.0,College Park
+401,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Rochester,Placed,62000,3.8,3.0,Rochester
+402,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+403,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+405,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Delaware,Placed,65000,3.7,1.0,Delaware
+406,Mia Wilson,Female,23,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.8,3.0,San Francisco
+407,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Texas,Placed,63000,3.6,1.0,Dallas
+408,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+409,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+411,Ava Lee,Female,24,Bachelor's,Information Technology,University of Washington,Placed,67000,3.8,3.0,Washington
+412,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+413,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+414,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+416,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+417,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Rochester,Placed,62000,3.8,3.0,Rochester
+418,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,60000,3.7,2.0,Santa Cruz
+419,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+421,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+422,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+423,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Texas,Placed,63000,3.6,1.0,Dallas
+424,Ava Lee,Female,24,Bachelor's,Information Technology,University of Virginia,Placed,64000,3.9,2.0,Virginia
+425,Liam Perez,Male,25,Bachelor's,Computer Science,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+427,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Washington,Placed,67000,3.8,3.0,Washington
+428,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.9,3.0,Berkeley
+429,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+430,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+432,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+433,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Rochester,Placed,62000,3.8,3.0,Rochester
+434,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+435,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+437,Ava Lee,Female,24,Bachelor's,Information Technology,University of Delaware,Placed,65000,3.7,1.0,Delaware
+438,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+439,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Texas,Placed,63000,3.6,1.0,Dallas
+440,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Virginia,Placed,64000,3.9,2.0,Virginia
+441,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+443,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0,Washington
+444,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+445,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+446,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+448,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+449,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0,Rochester
+450,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,60000,3.7,2.0,Santa Cruz
+451,Liam Perez,Male,25,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+453,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Delaware,Placed,65000,3.7,1.0,Delaware
+454,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.8,3.0,San Francisco
+455,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+456,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0,Virginia
+457,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+459,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Washington,Placed,67000,3.8,3.0,Washington
+460,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.9,3.0,Berkeley
+461,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+462,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+464,Liam Perez,Male,25,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+465,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Rochester,Placed,62000,3.8,3.0,Rochester
+466,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,60000,3.7,2.0,Santa Cruz
+467,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+469,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+470,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+471,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Texas,Placed,63000,3.6,1.0,Dallas
+472,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Virginia,Placed,64000,3.9,2.0,Virginia
+473,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+475,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+476,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+477,Liam Perez,Male,25,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+478,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+480,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+481,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+482,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,60000,3.7,2.0,Santa Cruz
+483,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+485,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Delaware,Placed,65000,3.7,1.0,Delaware
+486,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.8,3.0,San Francisco
+487,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+488,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+489,Ava Lee,Female,24,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+491,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0,Washington
+492,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+493,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+494,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+496,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+497,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0,Rochester
+498,Jack Garcia,Male,26,Bachelor's,Information Technology,University of California,Placed,60000,3.7,2.0,Santa Cruz
+499,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+501,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+502,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+503,Liam Perez,Male,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+504,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0,Virginia
+505,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+507,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Washington,Placed,67000,3.8,3.0,Washington
+508,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.9,3.0,Berkeley
+509,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+510,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+512,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+513,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+514,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+515,Ava Lee,Female,24,Bachelor's,Information Technology,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+517,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+518,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+519,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Texas,Placed,63000,3.6,1.0,Dallas
+520,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Michigan,Placed,64000,3.9,2.0,Ann Arbor
+521,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0,Virginia
+522,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,67000,3.8,3.0,Los Angeles
+523,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.7,2.0,Berkeley
+524,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+525,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+527,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+528,Ava Lee,Female,24,Bachelor's,Information Technology,University of Rochester,Placed,62000,3.8,3.0,Rochester
+529,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Placed,60000,3.7,2.0,Santa Cruz
+530,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+532,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+533,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+534,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Texas,Placed,63000,3.6,1.0,Dallas
+535,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Virginia,Placed,64000,3.9,2.0,Virginia
+536,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+538,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+539,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+540,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+541,Ava Lee,Female,24,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+543,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Maryland,Placed,63000,3.7,2.0,College Park
+544,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Rochester,Placed,62000,3.8,3.0,Rochester
+545,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,60000,3.7,2.1773962804005724,Santa Cruz
+547,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+548,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+549,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Texas,Placed,63000,3.6,1.0,Dallas
+550,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Virginia,Placed,64000,3.9,2.0,Virginia
+551,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+553,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+554,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+555,Liam Perez,Male,25,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+556,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+558,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+559,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+560,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,60000,3.7,2.0,Santa Cruz
+561,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+563,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Delaware,Placed,65000,3.7,1.0,Delaware
+564,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.8,3.0,San Francisco
+565,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+566,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+567,Ava Lee,Female,24,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+569,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0,Washington
+570,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+571,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+572,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+574,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+575,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0,Rochester
+576,Jack Garcia,Male,26,Bachelor's,Information Technology,University of California,Placed,60000,3.7,2.0,Santa Cruz
+577,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+579,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+580,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+581,Liam Perez,Male,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+582,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0,Virginia
+583,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+585,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Washington,Placed,67000,3.8,3.0,Washington
+586,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.9,3.0,Berkeley
+587,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+588,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+590,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+591,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+592,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+593,Ava Lee,Female,24,Bachelor's,Information Technology,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+595,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+596,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+597,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Texas,Placed,63000,3.6,1.0,Dallas
+598,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Michigan,Placed,64000,3.9,2.0,Ann Arbor
+599,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Virginia,Placed,67000,3.9,3.0,Virginia
+600,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,67000,3.8,3.0,Los Angeles
+601,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of California,Placed,66000,3.7,2.0,Berkeley
+602,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+603,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+605,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+606,Ava Lee,Female,24,Bachelor's,Information Technology,University of Rochester,Placed,62000,3.8,3.0,Rochester
+607,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Placed,60000,3.7,2.0,Santa Cruz
+608,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+610,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+611,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+612,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Texas,Placed,63000,3.6,1.0,Dallas
+613,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Virginia,Placed,64000,3.9,2.0,Virginia
+614,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+616,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+617,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+618,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+619,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+621,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+622,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Rochester,Placed,62000,3.8,3.0,Rochester
+623,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,60000,3.7,2.0,Santa Cruz
+624,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+626,Ava Lee,Female,24,Bachelor's,Information Technology,University of Delaware,Placed,65000,3.7,1.0,Delaware
+627,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+628,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Texas,Placed,63000,3.6,1.0,Dallas
+629,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Virginia,Placed,64000,3.9,2.0,Virginia
+630,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+632,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0,Washington
+633,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,66000,3.9,3.0,Berkeley
+634,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+635,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Colorado,Placed,66000,3.7,2.0,Boulder
+637,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+638,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0,Rochester
+639,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,60000,3.7,2.0,Santa Cruz
+640,Liam Perez,Male,25,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+642,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Delaware,Placed,65000,3.7,1.0,Delaware
+643,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.8,3.0,San Francisco
+644,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+645,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0,Virginia
+646,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+648,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Washington,Placed,67000,3.8,3.0,Washington
+649,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.9,3.0,Berkeley
+650,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+651,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+653,Liam Perez,Male,25,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+654,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Rochester,Placed,62000,3.8,3.0,Rochester
+655,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,60000,3.7,2.0,Santa Cruz
+656,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+658,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of Delaware,Placed,65000,3.7,1.0,Delaware
+659,Aiden Davis,Male,24,Bachelor's,Computer Science,University of California,Placed,66000,3.8,3.0,San Francisco
+660,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Texas,Placed,63000,3.6,1.0,Dallas
+661,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Virginia,Placed,64000,3.9,2.0,Virginia
+662,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+664,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Washington,Placed,67000,3.8,3.0,Washington
+665,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+666,Liam Perez,Male,25,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+667,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Colorado,Placed,66000,3.7,2.0,Boulder
+669,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Maryland,Placed,63000,3.7,2.0,College Park
+670,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Rochester,Placed,62000,3.8,3.0,Rochester
+671,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,60000,3.7,2.0,Santa Cruz
+672,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+674,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Delaware,Placed,65000,3.7,1.0,Delaware
+675,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of California,Placed,66000,3.8,3.0,San Francisco
+676,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+677,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Virginia,Placed,64000,3.9,2.0,Virginia
+678,Ava Lee,Female,24,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+680,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Washington,Placed,67000,3.8,3.0,Washington
+681,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Placed,66000,3.9,3.0,Berkeley
+682,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+683,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Colorado,Placed,66000,3.7,2.0,Boulder
+685,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Maryland,Placed,63000,3.7,2.0,College Park
+686,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Rochester,Placed,62000,3.8,3.0,Rochester
+687,Jack Garcia,Male,26,Bachelor's,Information Technology,University of California,Placed,60000,3.7,2.0,Santa Cruz
+688,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Connecticut,Placed,61000,3.5,1.0,Connecticut
+690,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Delaware,Placed,65000,3.7,1.0,Delaware
+691,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Placed,66000,3.8,3.0,San Francisco
+692,Liam Perez,Male,25,Bachelor's,Computer Science,University of Texas,Placed,63000,3.6,1.0,Dallas
+693,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Virginia,Placed,64000,3.9,2.0,Virginia
+694,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Michigan,Placed,67000,3.9,3.0,Ann Arbor
+696,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Washington,Placed,67000,3.8,3.0,Washington
+697,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of California,Placed,66000,3.9,3.0,Berkeley
+698,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Illinois,Placed,65000,3.8,3.0,Urbana-Champaign
+699,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Colorado,Placed,66000,3.7,2.0,Boulder
+41,Daniel Martinez,Male,24,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+51,Elijah Kelly,Male,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+56,Olivia Moore,Female,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+61,Daniel Martinez,Male,24,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+71,Elijah Kelly,Male,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+76,Olivia Moore,Female,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+81,Daniel Martinez,Male,24,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+91,Elijah Kelly,Male,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+96,Olivia Moore,Female,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+101,Daniel Martinez,Male,24,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+111,Elijah Kelly,Male,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+116,Olivia Moore,Female,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+121,Daniel Martinez,Male,24,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+131,Elijah Kelly,Male,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+136,Olivia Moore,Female,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+141,Daniel Martinez,Male,24,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+151,Elijah Kelly,Male,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+156,Olivia Moore,Female,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+161,Daniel Martinez,Male,24,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+171,Elijah Kelly,Male,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+176,Olivia Moore,Female,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+181,Daniel Martinez,Male,24,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+194,Ethan Johnson,Male,23,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+199,Olivia Brown,Female,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+205,Olivia Smith,Female,24,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+210,William Garcia,Male,23,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+216,Liam Rodriguez,Male,26,Bachelor's,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+221,Amelia Smith,Female,24,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+227,Sophia Martinez,Female,25,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+232,Liam Brown,Male,26,Bachelor's,Electrical Engineering,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+238,Noah Garcia,Male,24,Bachelor's,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+243,Ava Williams,Female,25,Bachelor's,Mechanical Engineering,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+249,Emma Brown,Female,23,Bachelor's,Electronics and Communication,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+254,Ethan Johnson,Male,23,Bachelor's,Electronics and Communication,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+260,Elijah Garcia,Male,24,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+265,Olivia Smith,Female,24,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+271,Olivia Brown,Female,25,Bachelor's,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+280,Oliver Martinez,Male,24,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+285,Sophia Jones,Female,25,Bachelor's,Electrical Engineering,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+290,Jack Garcia,Male,26,Bachelor's,Information Technology,University of California,Not Placed,0,3.9,2.0,Riverside
+297,Alexander Lee,Male,26,Bachelor's,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+302,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+307,Ava Lee,Female,24,Bachelor's,Information Technology,University of California,Not Placed,0,3.9,2.0,Riverside
+314,Aiden Davis,Male,24,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+319,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+324,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of California,Not Placed,0,3.9,2.0,Riverside
+330,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+336,Alexander Lee,Male,26,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+341,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of California,Not Placed,0,3.9,2.0,Riverside
+347,Liam Perez,Male,25,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+352,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+357,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+363,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+368,Jack Garcia,Male,26,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+373,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+383,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+388,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Not Placed,0,3.9,2.0,Riverside
+394,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+399,Liam Perez,Male,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+404,Emma Martinez,Female,26,Bachelor's,Electrical Engineering,University of California,Not Placed,0,3.9,2.0,Riverside
+410,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+415,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+420,Jack Garcia,Male,26,Bachelor's,Information Technology,University of California,Not Placed,0,3.9,2.0,Riverside
+426,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+431,Aiden Davis,Male,24,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+436,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of California,Not Placed,0,3.9,2.0,Riverside
+442,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+447,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+452,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of California,Not Placed,0,3.9,2.0,Riverside
+458,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+463,Ava Lee,Female,24,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+468,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+474,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+479,Alexander Lee,Male,26,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+484,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of California,Not Placed,0,3.9,2.0,Riverside
+490,Liam Perez,Male,25,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+495,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+500,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+506,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+511,Jack Garcia,Male,26,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+516,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+526,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+531,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Not Placed,0,3.9,2.0,Riverside
+537,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+542,Liam Perez,Male,25,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+546,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+552,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+557,Alexander Lee,Male,26,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+562,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of California,Not Placed,0,3.9,2.0,Riverside
+568,Liam Perez,Male,25,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+573,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+578,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+584,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+589,Jack Garcia,Male,26,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+594,Liam Perez,Male,25,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+604,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+609,Alexander Lee,Male,26,Bachelor's,Information Technology,University of California,Not Placed,0,3.9,2.0,Riverside
+615,Jack Garcia,Male,26,Bachelor's,Information Technology,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+620,Aiden Davis,Male,24,Bachelor's,Computer Science,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+625,Chloe Hernandez,Female,26,Bachelor's,Electrical Engineering,University of California,Not Placed,0,3.9,2.0,Riverside
+631,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+636,Emma Lopez,Female,24,Bachelor's,Mechanical Engineering,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+641,Isabella Martinez,Female,23,Bachelor's,Electronics and Communication,University of California,Not Placed,0,3.9,2.0,Riverside
+647,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+652,Ava Lee,Female,24,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+657,Lucas Taylor,Male,23,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+663,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+668,Alexander Lee,Male,26,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+673,Mia Wilson,Female,23,Bachelor's,Electrical Engineering,University of California,Not Placed,0,3.9,2.0,Riverside
+679,Liam Perez,Male,25,Bachelor's,Computer Science,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+684,Emma Martinez,Female,26,Bachelor's,Electronics and Communication,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
+689,Oliver Rodriguez,Male,23,Bachelor's,Computer Science,University of California,Not Placed,0,3.9,2.0,Riverside
+695,Sophia Johnson,Female,24,Bachelor's,Mechanical Engineering,University of Pennsylvania,Not Placed,0,3.7,2.0,Pennsylvania
+700,Jack Garcia,Male,26,Bachelor's,Information Technology,University of North Carolina,Not Placed,0,3.6,1.0,Chapel Hill
