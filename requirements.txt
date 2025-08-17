@@ -1,7 +1,12 @@
 Flask==2.3.3
 Werkzeug<3.0
+
 pandas
 numpy
+matplotlib
+seaborn
 plotly
+joblib
 scikit-learn
+xgboost
 gunicorn
