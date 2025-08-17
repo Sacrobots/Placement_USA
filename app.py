@@ -1,10 +1,11 @@
-from flask import Flask, render_template, request, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for, send_file
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import joblib
+import io
 pd.options.display.max_rows = 200   # show 200 rows
 
 
@@ -51,78 +52,89 @@ def submit():
 
 @app.route('/DA', methods=["POST", "GET"])
 def DA():
+    check = request.form.get("Charts")
 
-   
-    check = request.form.get("Charts")   # now works!
+    # --- Gender Placement (Matplotlib/Seaborn) ---
     if check == 'GPST':
         plt.figure(figsize=(10, 6))
-        sns.histplot(x='gender', data=df, hue='placement_status', palette={'Placed': 'blue', 'Not Placed': 'red'},
-                      multiple='dodge')
+        sns.histplot(x='gender', data=df, hue='placement_status',
+                     palette={'Placed': 'blue', 'Not Placed': 'red'},
+                     multiple='dodge')
         plt.xlabel("Gender")
         plt.ylabel("Count")
-        plt.show()
-    
-    elif check == 'PCIS':
-        fig = px.pie(data_frame=df, names='stream', opacity=0.9, title='Stream-wise student distribution')
-        fig.update_traces(
-            textinfo='percent',
-            textfont=dict(size=15, color='black', family='Arial')
-        )
-        fig.update_traces(
-            textinfo='percent',
-            textfont=dict(size=18, color='black', family='Arial Black'),  # Bold & thicker
-        )
 
+        img = io.BytesIO()
+        plt.savefig(img, format="png")
+        img.seek(0)
+        plt.close()
+        return send_file(img, mimetype="image/png",
+                         as_attachment=True,
+                         download_name="gender_placement.png")
+
+    # --- Stream Pie (Plotly) ---
+    elif check == 'PCIS':
+        fig = px.pie(data_frame=df, names='stream', opacity=0.9,
+                     title='Stream-wise student distribution')
+        fig.update_traces(
+            textinfo='percent',
+            textfont=dict(size=18, color='black', family='Arial Black')
+        )
         fig.update_layout(
             title=dict(
                 text="Stream-wise student distribution",
-                font=dict(size=22, family="Arial Black", color="black")   # Bold Title
+                font=dict(size=22, family="Arial Black", color="black")
             )
         )
-        fig.show()
 
+        img = io.BytesIO()
+        fig.write_image(img, format="png")   # requires kaleido
+        img.seek(0)
+        return send_file(img, mimetype="image/png",
+                         as_attachment=True,
+                         download_name="stream_pie.png")
+
+    # --- Stream vs Placement (Matplotlib/Seaborn) ---
     elif check == 'SPSD':
-        
         plt.figure(figsize=(10, 10))
-        ax = sns.histplot(
-            x='stream',
-            data=df,
-            hue='placement_status',
-            multiple='dodge',
-            shrink=0.8
-        )
-
+        ax = sns.histplot(x='stream', data=df, hue='placement_status',
+                          multiple='dodge', shrink=0.8)
         plt.xlabel("Stream")
         plt.ylabel("Count")
 
-
         for p in ax.patches:
             height = p.get_height()
-            if height > 0:  
-                ax.text(
-                    p.get_x() + p.get_width() / 2,  
-                    height,                         
-                    int(height),                    
-                    ha='center', va='bottom', fontsize=10
-                )
+            if height > 0:
+                ax.text(p.get_x() + p.get_width() / 2, height,
+                        int(height), ha='center', va='bottom', fontsize=10)
         plt.legend()
 
-        plt.show()
+        img = io.BytesIO()
+        plt.savefig(img, format="png")
+        img.seek(0)
+        plt.close()
+        return send_file(img, mimetype="image/png",
+                         as_attachment=True,
+                         download_name="stream_vs_placement.png")
 
+    # --- Placement by Location (Matplotlib/Seaborn) ---
     elif check == 'PSDA':
-
         plt.figure(figsize=(12, 6))
-        sns.histplot(x='location', data=df, hue='placement_status', multiple='dodge', shrink=0.8)
+        sns.histplot(x='location', data=df, hue='placement_status',
+                     multiple='dodge', shrink=0.8)
         plt.xticks(rotation=45)
         plt.xlabel("Location")
         plt.ylabel("Count")
-        plt.show()
+
+        img = io.BytesIO()
+        plt.savefig(img, format="png")
+        img.seek(0)
+        plt.close()
+        return send_file(img, mimetype="image/png",
+                         as_attachment=True,
+                         download_name="placement_location.png")
 
     else:
         return "<h3>No valid chart option selected</h3>"
-
-    return render_template("Data_Analytics.html")   # <-- load second HTML page
-
 
 @app.route('/US', methods=["GET", "POST"])
 def US():
@@ -239,3 +251,4 @@ def predict():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))  # default 5000 for local dev
     app.run(host="0.0.0.0", port=port, debug=True)
+
